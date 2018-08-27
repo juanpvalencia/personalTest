@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Presentación</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript">
+        function myFunction(idButton) {
+                var producto1 = document.getElementById('estudios');
+                var producto2 = document.getElementById('producto2');
+                var producto3 = document.getElementById('horario');
+
+                switch(idButton) {
+                        case 1:
+                        
+                                estudios.style.display = 'inline-block';
+                                producto2.style.display = 'none';
+                                horario.style.display = 'none';
+                                break;
+
+                        case 2:
+                                estudios.style.display = 'none';
+                                producto2.style.display = 'inline-block';
+                                horario.style.display = 'none';
+                                break;
+
+                        case 3:
+                                estudios.style.display = 'none';
+                                producto2.style.display = 'none';
+                                horario.style.display = 'inline-block';
+                                break;
+
+                        default:
+                                alert("::Error::")
+                }
+
+        }
+
+    </script>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+
+<body>
+    <br>
+            <div>
+                    <h1>Juan Pablo Valencia Rosada</h1>
+                </div>
+                <div class="alinear" id="sangria">
+                        <h4>Estudiante de Ingeniería de Sistemas</h4>
+                </div>
+                <div  class="alinear" id="sangria">
+                        <h4>Universidad del Cauca</h4>
+                </div>
+
+    <br>
+    <div id="cuerpo">
+            <div class="menu">
+                    <br>
+                    <a  onclick="myFunction(1)">Estudios</a>
+                    <br><br>
+                    <a  onclick="myFunction(2)">Producto2</a>
+                    <br><br>
+                    <a  onclick="myFunction(3)">Horario</a>
+                    <br><br>
+            </div>
+            <div>
+                <p id="sangria">Fecha de Nacimiento: 1996</p>
+                <p id="sangria">Lugar de Nacimiento: <a href="https://es.wikipedia.org/wiki/Cali">Cali</a>, Valle del Cauca</p>
+                <p id="sangria">Edad: 21 años</p>
+                <p id="sangria">Estatura: 175 cm</p>
+            </div>
+            
+    </div>
+    <div class="alinear">
+             <div id="estudios" style="display:none;">
+                <div class="tituloDiv">
+                   <h3>Estudios</h3>
+                </div>
+                <div class="contenidoDiv">
+                        <div>
+                                <div>
+                                        <iframe width="650" height="450"
+                                        src="https://www.youtube.com/embed/vK--ApJuqXc?controls=1">
+                                        </iframe> 
+                                </div>
+                                <div>
+                                        <p id="negrita">Instituto Nuestra Señora de la Asunción <a href="http://www.insa-csb.co/">(INSA)</a></p>
+                                        <p id="sangria">Educación:Basica Secundaria y Media</p>
+                                        <p id="sangria">Tiempo:6 años</p>
+                                        <!-- <p id="sangria">Novedad:Medalla de honor en el área de sistemas</p> -->
+                                </div>
+                        </div>
+                        <div>
+                                        <div>
+                                                <iframe width="650" height="450"
+                                                src="https://www.youtube.com/embed/v=QYvoBKg_ucY?controls=1">
+                                                </iframe> 
+                                        </div>
+                                        <div>
+                                                <p id="negrita">Institución Universitaria Colegio Mayor del Cauca <a href="http://www.unimayor.edu.co/web/es/">(Unimayor)</a></p>
+                                                <p id="sangria">Educación:4 semestres en ingeniería informática</p>
+                                                <p id="sangria">Tiempo:2 años</p>
+                                                <!-- <p id="sangria">Novedad:Becado 3 semestres consecutivos</p> -->
+                                        </div>
+                                </div>
+                </div>
+             </div>
+             
+             <div id="producto2" style="display:none;">
+                  <div class="tituloDiv">
+                     <h3>Producto2</h3>
+                  </div>
+                  <div class="contenidoDiv">
+                     <p>Descripción producto2.</p>
+                  </div>
+             </div>
+             
+             <div id="horario" style="display:none;">
+                 <div class="tituloDiv">
+                      <h3>Horario</h3>
+                 </div>
+                 <div class="contenidoDiv">
+                     <img src="horario.png" alt="horario" class="imgResponsive">
+                 </div>
+             </div>
+
+    </div>
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <hr>
+    <br>
+</body>
+
+</html>
