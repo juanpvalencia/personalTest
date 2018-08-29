@@ -9,26 +9,26 @@
     <script type="text/javascript">
         function myFunction(idButton) {
                 var producto1 = document.getElementById('estudios');
-                var producto2 = document.getElementById('producto2');
+                var producto2 = document.getElementById('participaciones');
                 var producto3 = document.getElementById('horario');
 
                 switch(idButton) {
                         case 1:
                         
                                 estudios.style.display = 'inline-block';
-                                producto2.style.display = 'none';
+                                participaciones.style.display = 'none';
                                 horario.style.display = 'none';
                                 break;
 
                         case 2:
                                 estudios.style.display = 'none';
-                                producto2.style.display = 'inline-block';
+                                participaciones.style.display = 'inline-block';
                                 horario.style.display = 'none';
                                 break;
 
                         case 3:
                                 estudios.style.display = 'none';
-                                producto2.style.display = 'none';
+                                participaciones.style.display = 'none';
                                 horario.style.display = 'inline-block';
                                 break;
 
@@ -60,16 +60,18 @@
                     <br>
                     <a  onclick="myFunction(1)">Estudios</a>
                     <br><br>
-                    <a  onclick="myFunction(2)">Producto2</a>
+                    <a  onclick="myFunction(2)">Participaciones</a>
                     <br><br>
                     <a  onclick="myFunction(3)">Horario</a>
                     <br><br>
             </div>
             <div>
+                    <br>
                 <p id="sangria">Fecha de Nacimiento: 1996</p>
                 <p id="sangria">Lugar de Nacimiento: <a href="https://es.wikipedia.org/wiki/Cali">Cali</a>, Valle del Cauca</p>
                 <p id="sangria">Edad: 21 años</p>
                 <p id="sangria">Estatura: 175 cm</p>
+                <p id="sangria">Correo Electrónico: <a href="mailto:juanpvalencia@unicauca.edu.co">juanpvalencia@unicauca.edu.co</a></p>
             </div>
             
     </div>
@@ -104,16 +106,51 @@
                                                 <p id="sangria">Tiempo:2 años</p>
                                                 <!-- <p id="sangria">Novedad:Becado 3 semestres consecutivos</p> -->
                                         </div>
-                                </div>
+                        </div>
+                        <div>
+                                        <div>
+                                                <iframe width="650" height="450"
+                                                src="https://www.youtube.com/embed/v=3yGHyy1a0kY?controls=1">
+                                                </iframe> 
+                                        </div>
+                                        <div>
+                                                <p id="negrita">Universidad del Cauca <a href="http://www.unicauca.edu.co/versionP/">(Unicauca)</a></p>
+                                                <p id="sangria">Educación:7 semestres en ingeniería de sistemas</p>
+                                                <p id="sangria">Tiempo:3 años y medio</p>
+                                                
+                                        </div>
+                        </div>
                 </div>
              </div>
              
-             <div id="producto2" style="display:none;">
+             <div id="participaciones" style="display:none;">
                   <div class="tituloDiv">
-                     <h3>Producto2</h3>
+                     <h3>Participaciones</h3>
                   </div>
                   <div class="contenidoDiv">
-                     <p>Descripción producto2.</p>
+                     <ul>Ponente de proyecto en curso en el Tercer encuentro regional de semilleros de investigación TYT Valle del cauca y Cauca el 24 de abril del 2015 </ul>
+
+                     <ul>Asistente en el Segundo encuentro regional de semilleros de investigación TYT Valle del cauca y Cauca el 11 de abril del 2014</ul>
+                                
+                     <ul>Expositor en las I experiencias academicas de la facultad de ingeniería de la institución universitaria colegio mayor del cauca el 31 de mayo de 2013</ul>
+                                
+                     <ul>Expositor en las II experiencias academicas de la facultad de ingeniería de la institución universitaria colegio mayor del cauca el 30 de mayo de 2014</ul>
+                                
+                     <ul>Asistente en el II seminario en seguridad informática estrategias de ataque y defensa el 7 de noviembre del 2014</ul>
+                                
+                     <ul>Asistente en el Seminario internacional de ingenieria de software el martes 27 de agosto de 2013 </ul>
+                                
+                     <ul>Expositor en el XV Concurso de ideas empresariales 12 noviembre de 2014</ul>
+                                
+                     <ul>Asistente a la I Jornada Iberoamericana de Interacción Humano Computador los dias 2 y 3 de diciembre de 2014 </ul>
+                                
+                     <ul>Asistente a la II Jornada Iberoamericana de Interacción Humano Computador del 13 al 18 de abril de 2015</ul>
+                                
+                     <ul>Desconferencista en el Barcamp Security Edition el 29 de noviembre de 2014</ul>
+                                
+                     <ul>Asistente al evento Regional Agile Open Popayán 2014 el 15 de noviembre del mismo año</ul>
+                                
+                     <ul>Asistente conferencia Controlemos la Calidad del Software Dr. Mario Piattini Velthuis 03 agosto 2017</ul>
                   </div>
              </div>
              
