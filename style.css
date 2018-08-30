@@ -23,6 +23,11 @@ h1 {
     vertical-align: top;
 }
 
+/*Alinear contenido div*/
+.alinearContDiv{
+    /*text-align: left;*/
+    
+}
 /*Alinear cabecera*/
 .alinear{
     text-align-last: center;
@@ -72,10 +77,10 @@ h1 {
 .contenidoDiv > div{
     font-style: italic;
     vertical-align: top;
-    align-content: center;
+   /* align-content: center;
     align-items: center;
-    align-self: center;
-    text-align: center;
+    align-self: center;*/
+    text-align: left;
     display: inline;
 
 }
@@ -85,4 +90,19 @@ h1 {
     max-width: 800px;
     max-height: 800px;
 
+}
+#selectedA{
+    cursor: pointer;
+    margin-left: 30px;
+
+}
+ul {
+    display: block;
+    text-align: left;
+    list-style-type:square  ;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 15px;
 }
